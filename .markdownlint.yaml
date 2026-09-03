@@ -18,4 +18,4 @@ MD059: false
 # PR_HISTORY.md is auto-generated / manually maintained and contains
 # long URLs and non-standard formatting that should be excluded from linting.
 ignores:
-  - "PR_HISTORY.md"
+  - PR_HISTORY.md
