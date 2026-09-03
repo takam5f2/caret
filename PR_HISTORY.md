@@ -6,7 +6,7 @@ Code changes from these PRs are already included in the migrated main branch.
 The links point to the original PRs for discussion and review history.
 
 | PR# | Title | Author | Original |
-|-----|-------|--------|----------|
+| --- | ----- | ------ | -------- |
 
 | #249 | revert: set jazzy as main | @xygyo77 | [tier4/caret#249](https://github.com/tier4/caret/pull/249) |
 | #248 | feat: set jazzy as main | @xygyo77 | [tier4/caret#248](https://github.com/tier4/caret/pull/248) |
@@ -29,7 +29,7 @@ The links point to the original PRs for discussion and review history.
 | #230 | feat: setting environment variables for jazzy | @miyakoshi-dev | [tier4/caret#230](https://github.com/tier4/caret/pull/230) |
 | #229 | feat: add caret build job (humble, iron, jazzy) | @ymski | [tier4/caret#229](https://github.com/tier4/caret/pull/229) |
 | #228 | fix: update ansible roles and setup script for jazzy | @xygyo77 | [tier4/caret#228](https://github.com/tier4/caret/pull/228) |
-| #226 | chore: add /AGNOCAST_SRV_* to the default values for topic filters. | @xygyo77 | [tier4/caret#226](https://github.com/tier4/caret/pull/226) |
+| #226 | chore: add /AGNOCAST_SRV__to the default values for topic filters. | @xygyo77 | [tier4/caret#226](https://github.com/tier4/caret/pull/226) |
 | #225 | chore: fix rclcpp version | @iwatake2222 | [tier4/caret#225](https://github.com/tier4/caret/pull/225) |
 | #224 | ci: updated the setup procedure for Build with Autoware | @ymski | [tier4/caret#224](https://github.com/tier4/caret/pull/224) |
 | #223 | fix: rewrite the build configuration for cyclonedds for caret using | @xygyo77 | [tier4/caret#223](https://github.com/tier4/caret/pull/223) |
@@ -43,7 +43,7 @@ The links point to the original PRs for discussion and review history.
 | #211 | chore: add topic_tools repo | @iwatake2222 | [tier4/caret#211](https://github.com/tier4/caret/pull/211) |
 | #210 | feat: jazzy support | @miyakoshi-dev | [tier4/caret#210](https://github.com/tier4/caret/pull/210) |
 | #208 | fix: add current value for LD_PRELOAD | @atsushi421 | [tier4/caret#208](https://github.com/tier4/caret/pull/208) |
-| #207 | fix: ansible update to version 6* | @xygyo77 | [tier4/caret#207](https://github.com/tier4/caret/pull/207) |
+| #207 | fix: ansible update to version 6_ | @xygyo77 | [tier4/caret#207](https://github.com/tier4/caret/pull/207) |
 | #206 | fix: the requirements.txt in caret is installed with user privileges. | @xygyo77 | [tier4/caret#206](https://github.com/tier4/caret/pull/206) |
 | #202 | ci(pre-commit): autoupdate | @app/pre-commit-ci | [tier4/caret#202](https://github.com/tier4/caret/pull/202) |
 | #200 | chore: sync files | @app/system-tools-actions-public | [tier4/caret#200](https://github.com/tier4/caret/pull/200) |
