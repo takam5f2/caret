@@ -49,4 +49,4 @@ repos:
     hooks:
       - id: hadolint
 
-exclude: .svg
+exclude: .svg|PR_HISTORY\.md|\.github\/PULL_REQUEST_TEMPLATE\.md
