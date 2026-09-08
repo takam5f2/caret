@@ -108,7 +108,7 @@ function add_tag_to_caret_repository() {
     ${DRY_RUN} git checkout main
     ${DRY_RUN} git checkout -b rc/"${2}"
     ${DRY_RUN} git tag "${2}"
-    ${DRY_RUN} git remote add github git@github.com:takam5f2/"${1}".git
+    ${DRY_RUN} git remote add github https://github.com/takam5f2/"${1}".git
     if [ "${PUSH_REMOTE}" == "true" ]; then
         ${DRY_RUN} git push github rc/"${2}"
         ${DRY_RUN} git push github "${2}"
@@ -188,12 +188,13 @@ elif [ -f "${ROOT_DIR}/caret_${DEFAULT_DISTRO}.repos" ]; then
     git add "${ROOT_DIR}/caret.repos"
 fi
 
+${DRY_RUN} git remote add github https://github.com/takam5f2/caret.git
 ${DRY_RUN} git commit -m "release(repos): change version of sub repositories for ${TAG_ID}"
 ${DRY_RUN} git tag "${TAG_ID}"
 
 if [ "${PUSH_REMOTE}" == "true" ]; then
-    ${DRY_RUN} git push origin rc/"${TAG_ID}"
-    ${DRY_RUN} git push origin "${TAG_ID}"
+    ${DRY_RUN} git push github rc/"${TAG_ID}"
+    ${DRY_RUN} git push github "${TAG_ID}"
 fi
 
 echo "[Info] Completed release script."
