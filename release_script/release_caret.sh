@@ -188,6 +188,7 @@ elif [ -f "${ROOT_DIR}/caret_${DEFAULT_DISTRO}.repos" ]; then
     git add "${ROOT_DIR}/caret.repos"
 fi
 
+${DRY_RUN} git checkout -b rc/"${TAG_ID}"
 ${DRY_RUN} git remote add github https://github.com/takam5f2/caret.git
 ${DRY_RUN} git commit -m "release(repos): change version of sub repositories for ${TAG_ID}"
 ${DRY_RUN} git tag "${TAG_ID}"
